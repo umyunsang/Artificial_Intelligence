@@ -87,6 +87,7 @@ print('Learning finished')
 
 # 9. 학습된 모델을 이용한 정확도 확인
 with torch.no_grad():
+    network.eval()
     img_test = torch.tensor(np.transpose(cifar10_test.data, (0, 3, 1, 2))) / 255.
     label_test = torch.tensor(cifar10_test.targets)
 

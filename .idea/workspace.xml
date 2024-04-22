@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="recovery file">
-      <change afterPath="$PROJECT_DIR$/Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="mid test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backpropagation/CIFAR10/CIFAR10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backpropagation/CIFAR10/CIFAR10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +22,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "umyunsang"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;umyunsang&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/umyunsang/Artificial_Intelligence.git",
-    "accountId": "b0207355-d791-4f6f-9f09-e8c84867f947"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/umyunsang/Artificial_Intelligence.git&quot;,
+    &quot;accountId&quot;: &quot;b0207355-d791-4f6f-9f09-e8c84867f947&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2fRNdIy9ej0xDeslOcgvH29Brc6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +47,7 @@
   "keyToString": {
     "Python.CIFAR10-1.executor": "Run",
     "Python.CIFAR10.executor": "Run",
+    "Python.인공지능_중간고사_엄윤상_1705817.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -83,11 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713760220772</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mid test">
+      <option name="closed" value="true" />
+      <created>1713762893795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713762893795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="recovery file" />
-    <option name="LAST_COMMIT_MESSAGE" value="recovery file" />
+    <MESSAGE value="mid test" />
+    <option name="LAST_COMMIT_MESSAGE" value="mid test" />
   </component>
 </project>
