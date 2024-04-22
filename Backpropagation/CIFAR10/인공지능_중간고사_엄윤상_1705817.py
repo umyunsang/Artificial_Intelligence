@@ -17,31 +17,36 @@ cifar10_test = dataset.CIFAR10(root="./", train=False, transform=transform.ToTen
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()
-        self.fc1 = nn.Linear(3072, 500)
-        self.fc2 = nn.Linear(500, 500)
-        self.fc3 = nn.Linear(500, 500)
-        self.fc4 = nn.Linear(500, 500)
-        self.fc5 = nn.Linear(500, 500)
-        self.fc6 = nn.Linear(500, 10)
+        self.fc1 = nn.Linear(3072, 1000)
+        self.fc2 = nn.Linear(1000, 800)
+        self.fc3 = nn.Linear(800, 600)
+        self.fc4 = nn.Linear(600, 400)
+        self.fc5 = nn.Linear(400, 200)
+        self.fc6 = nn.Linear(200, 100)
+        self.fc7 = nn.Linear(100, 50)
+        self.fc8 = nn.Linear(50, 20)
+        self.fc9 = nn.Linear(20, 10)
         self.relu = nn.ReLU()
-        self.bn = nn.BatchNorm1d(500)
-        self.dropout = nn.Dropout(0.1)
+        self.sigmoid = nn.Sigmoid()
+        self.dropout = nn.Dropout(0.2)
+        self.bn1 = nn.BatchNorm1d(600)
+        self.bn2 = nn.BatchNorm1d(100)
 
-        torch.nn.init.xavier_normal_(self.fc1.weight.data)
-        torch.nn.init.xavier_normal_(self.fc2.weight.data)
         torch.nn.init.xavier_normal_(self.fc3.weight.data)
-        torch.nn.init.xavier_normal_(self.fc4.weight.data)
-        torch.nn.init.xavier_normal_(self.fc5.weight.data)
+        torch.nn.init.xavier_normal_(self.fc6.weight.data)
 
     def forward(self, x):
         x = x.view(-1, 3072)
-        y = self.relu(self.bn(self.fc1(x)))
-        y = self.relu(self.bn(self.fc2(y)))
-        y = self.relu(self.bn(self.fc3(y)))
-        y = self.relu(self.bn(self.fc4(y)))
-        y = self.relu(self.bn(self.fc5(y)))
+        y = self.sigmoid(self.fc1(x))
+        y = self.relu(self.fc2(y))
+        y = self.bn1(self.fc3(y))
+        y = self.relu(self.fc4(y))
         y = self.dropout(y)
-        y = self.fc6(y)
+        y = self.relu(self.fc5(y))
+        y = self.bn2(self.fc6(y))
+        y = self.relu(self.fc7(y))
+        y = self.relu(self.fc8(y))
+        y = self.fc9(y)
         return y
 
 
@@ -49,9 +54,9 @@ class MLP(nn.Module):
 network = MLP().to(device)
 
 # 6. 하이퍼파라미터 설정
-batch_size = 200
+batch_size = 100
 learning_rate = 0.1
-training_epochs = 20
+training_epochs = 30
 loss_function = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(network.parameters(), lr=learning_rate)
 
@@ -82,7 +87,7 @@ print('Learning finished')
 
 # 9. 학습된 모델을 이용한 정확도 확인
 with torch.no_grad():
-    img_test = torch.tensor(np.transpose(cifar10_test.data,(0, 3, 1, 2))) / 255.
+    img_test = torch.tensor(np.transpose(cifar10_test.data, (0, 3, 1, 2))) / 255.
     label_test = torch.tensor(cifar10_test.targets)
 
     prediction = network(img_test)
@@ -90,15 +95,7 @@ with torch.no_grad():
     accuracy = correct_prediction.float().mean()
     print('Accuracy:', accuracy.item())
 
-# 10. 학습된 모델의 가중치 저장
-torch.save(network.state_dict(), "../../Backpropagation/CIFAR10/mlp_mnist.pth")
+# # 10. 학습된 모델의 가중치 저장
+# torch.save(network.state_dict(), "/mlp_mnist.pth")
 
-#
-# Epoch: 20 Loss = 0.098194
-# Learning finished
-# Accuracy: 0.5516999959945679
 
-# Batch size = 100
-# Epoch: 20 Loss = 0.131574
-# Learning finished
-# Accuracy: 0.5583999752998352
