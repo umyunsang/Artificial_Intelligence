@@ -4,14 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="mid test">
+    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="Optimization">
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/CNN_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/CNN_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/batches.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/test_batch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -38,15 +55,25 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2fRNdIy9ej0xDeslOcgvH29Brc6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Adam.executor": "Run",
     "Python.CIFAR10-1.executor": "Run",
     "Python.CIFAR10.executor": "Run",
+    "Python.CNN.executor": "Run",
+    "Python.CNN_2.executor": "Run",
+    "Python.CNN_3.executor": "Run",
+    "Python.ExponentialLR.executor": "Run",
+    "Python.Momentum.executor": "Run",
+    "Python.Optimization.executor": "Run",
     "Python.인공지능_중간고사_엄윤상_1705817.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -54,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\Optimization\LearnigRateControl" />
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\Backpropagation\CIFAR10" />
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence" />
     </key>
@@ -90,12 +118,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713762893795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify">
+      <option name="closed" value="true" />
+      <created>1713782740089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713782740089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Optimization">
+      <option name="closed" value="true" />
+      <created>1714455107395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714455107395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Optimization">
+      <option name="closed" value="true" />
+      <created>1714460553189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714460553189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="recovery file" />
     <MESSAGE value="mid test" />
-    <option name="LAST_COMMIT_MESSAGE" value="mid test" />
+    <MESSAGE value="modify" />
+    <MESSAGE value="Optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimization" />
   </component>
 </project>
