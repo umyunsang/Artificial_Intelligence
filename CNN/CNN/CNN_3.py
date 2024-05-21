@@ -1,3 +1,4 @@
+import numpy as np
 import torch
 import torch.nn as nn
 import torchvision.datasets as dataset
@@ -162,7 +163,7 @@ print('Learning finished')
 network = network.to('cpu')
 with torch.no_grad():  # test에서는 기울기 계산 제외
     network.eval()
-    img_test = torch.tensor(np.transpose(cifar10_test.data, (0, 3, 1, 2))) / 255
+    img_test = torch.tensor(np.transpose(cifar10_test.data, (0, 3, 1, 2))) / 255.
     label_test = torch.tensor(cifar10_test.targets)
 
     prediction = network(img_test)  # 전체 test data를 한번에 계산
