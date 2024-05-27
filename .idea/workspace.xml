@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="CNN">
-      <change afterPath="$PROJECT_DIR$/CNN/CNN/cnn_cifar10.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/CNN/ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Artificial_Intelligence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Artificial_Intelligence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGCA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGDense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGSkip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/batches.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/test_batch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/experiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/CNN/CNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/CNN/CNN_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/CNN/CNN_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/batches.meta" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/batches.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_1" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_2" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_3" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_4" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_5" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/readme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/test_batch" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/test_batch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/cnn_cifar10.pth" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cnn_cifar10.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/CNN/ex1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,16 +89,23 @@
     "Python.ExponentialLR.executor": "Run",
     "Python.Momentum.executor": "Run",
     "Python.Optimization.executor": "Run",
+    "Python.VGGNET.executor": "Run",
+    "Python.VGGSkip.executor": "Run",
     "Python.ex01.executor": "Run",
     "Python.ex1.executor": "Run",
     "Python.인공지능_중간고사_엄윤상_1705817.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/엄윤상/Desktop/CS/Artificial_Intelligence/CNN/VGGNet",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\CNN\VGGNet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\CNN\VGGNet" />
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\Optimization\LearnigRateControl" />
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\Backpropagation\CIFAR10" />
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence" />
@@ -149,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716269828590</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CNN">
+      <option name="closed" value="true" />
+      <created>1716307499980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716307499980</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
