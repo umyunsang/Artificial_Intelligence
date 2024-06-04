@@ -98,9 +98,8 @@ class UMNet(nn.Module):
         skip = self.relu(self.conv_skip3(out1))
         out = self.relu(self.conv3_1(out1))
         out = self.relu(self.conv3_2(out))
-
-
         out = out + skip
+
         out = self.MaxPool2d(out)
         # 평탄화
         out = out.reshape(out.size(0), -1)

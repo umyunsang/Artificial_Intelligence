@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="CNN">
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGDense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/VGGSkip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/batches.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/data_batch_5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/readme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/cifar-10-batches-py/test_batch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CNN/VGGNet/experiment.py" afterDir="false" />
+    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="UMNet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/CNN_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/LeNet_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/batches.meta" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/batches.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_1" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_2" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_3" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_4" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/data_batch_5" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/data_batch_5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cifar-10-batches-py/test_batch" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cifar-10-batches-py/test_batch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/cnn_cifar10.pth" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/LeNet/cnn_cifar10.pth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/CNN/ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNN/VGGNet/UMNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/VGGNet/UMNet.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,29 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Adam.executor": "Run",
-    "Python.CIFAR10-1.executor": "Run",
-    "Python.CIFAR10.executor": "Run",
-    "Python.CNN.executor": "Run",
-    "Python.CNN_2.executor": "Run",
-    "Python.CNN_3.executor": "Run",
-    "Python.ExponentialLR.executor": "Run",
-    "Python.Momentum.executor": "Run",
-    "Python.Optimization.executor": "Run",
-    "Python.VGGNET.executor": "Run",
-    "Python.VGGSkip.executor": "Run",
-    "Python.ex01.executor": "Run",
-    "Python.ex1.executor": "Run",
-    "Python.인공지능_중간고사_엄윤상_1705817.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/엄윤상/Desktop/CS/Artificial_Intelligence/CNN/VGGNet",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Adam.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CIFAR10-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CIFAR10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CNN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CNN_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CNN_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ExponentialLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Momentum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Optimization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VGGNET.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VGGSkip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.인공지능_중간고사_엄윤상_1705817.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/엄윤상/Desktop/CS/Artificial_Intelligence/CNN/VGGNet&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\엄윤상\Desktop\CS\Artificial_Intelligence\CNN\VGGNet" />
@@ -183,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716307499980</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CNN">
+      <option name="closed" value="true" />
+      <created>1716814478283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716814478283</updated>
+    </task>
+    <task id="LOCAL-00009" summary="UMNet">
+      <option name="closed" value="true" />
+      <created>1716814536137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716814536137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +184,7 @@
     <MESSAGE value="modify" />
     <MESSAGE value="Optimization" />
     <MESSAGE value="CNN" />
-    <option name="LAST_COMMIT_MESSAGE" value="CNN" />
+    <MESSAGE value="UMNet" />
+    <option name="LAST_COMMIT_MESSAGE" value="UMNet" />
   </component>
 </project>
