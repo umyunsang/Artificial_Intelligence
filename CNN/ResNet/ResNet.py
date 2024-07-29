@@ -161,3 +161,4 @@ for epoch in range(training_epochs):
     print('Epoch: %d Loss = %f' % (epoch + 1, avg_cost))
 
 print('Learning finished')
+
