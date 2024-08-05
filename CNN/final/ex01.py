@@ -7,15 +7,16 @@ from torch.utils.data import DataLoader
 from torchsummary import summary
 
 # Training dataset 다운로드
-cifar100_train = dataset.CIFAR100(root = "./", # 데이터셋을 저장할 위치
-                            train = True,
-                            transform = transform.ToTensor(),
-                            download = True)
+cifar100_train = dataset.CIFAR100(root="./",  # 데이터셋을 저장할 위치
+                                  train=True,
+                                  transform=transform.ToTensor(),
+                                  download=True)
 # Testing dataset 다운로드
-cifar100_test = dataset.CIFAR100(root = "./",
-                            train = False,
-                            transform = transform.ToTensor(),
-                            download = True)
+cifar100_test = dataset.CIFAR100(root="./",
+                                 train=False,
+                                 transform=transform.ToTensor(),
+                                 download=True)
+
 
 class modelOne(nn.Module):
     def __init__(self):

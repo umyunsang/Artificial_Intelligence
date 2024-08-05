@@ -7,15 +7,15 @@ from torch.utils.data import DataLoader
 from torchsummary import summary
 
 # Training dataset 다운로드
-cifar100_train = dataset.CIFAR100(root = "./", # 데이터셋을 저장할 위치
-                            train = True,
-                            transform = transform.ToTensor(),
-                            download = True)
+cifar100_train = dataset.CIFAR100(root="./",  # 데이터셋을 저장할 위치
+                                  train=True,
+                                  transform=transform.ToTensor(),
+                                  download=True)
 # Testing dataset 다운로드
-cifar100_test = dataset.CIFAR100(root = "./",
-                            train = False,
-                            transform = transform.ToTensor(),
-                            download = True)
+cifar100_test = dataset.CIFAR100(root="./",
+                                 train=False,
+                                 transform=transform.ToTensor(),
+                                 download=True)
 
 
 class modelTwo(nn.Module):
@@ -48,7 +48,7 @@ class modelTwo(nn.Module):
 
         # SA
         self.caconv1_1 = nn.Conv2d(in_channels=64, out_channels=1, kernel_size=1)
-        self.caconv2_1 = nn.Conv2d(in_channels=1, out_channels=1, kernel_size=5, stride=1, padding= 2)
+        self.caconv2_1 = nn.Conv2d(in_channels=1, out_channels=1, kernel_size=5, stride=1, padding=2)
 
         # 파라미터를 가지지 않은 layer는 한 번만 선언해도 문제 없음
         self.sigmoid = nn.Sigmoid()
@@ -123,6 +123,7 @@ class modelTwo(nn.Module):
         out = self.fc3(out)
 
         return out
+
 
 model = modelTwo().to('cuda')
 summary(model, (3, 32, 32))
