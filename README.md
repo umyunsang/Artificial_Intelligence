@@ -4,22 +4,49 @@ Welcome to the **Artificial Intelligence Repository**! Whether you're a newcomer
 
 ## 📚 Table of Contents
 
-- [Introduction](#-introduction)
-- [Repository Structure](#-repository-structure)
-  - [Backpropagation](#-backpropagation)
-    - [CIFAR10](#-cifar10)
-    - [Overfitting](#-overfitting)
-    - [Vanishing Gradient](#-vanishing-gradient)
-  - [Convolutional Neural Networks (CNN)](##-convolutional-neural-networks-cnn)
+- [Introduction]
+- [Repository Structure]
+  - [Backpropagation]
+    - [CIFAR10]
+      - [CIFA10](Backpropagation/CIFAR10/CIFAR10.py)
+      - [middle test](Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py)
+    - [Overfitting]
+      - [Overfitting](Backpropagation/Overfitting/Overfitting.py)
+      - [Dropout](Backpropagation/Overfitting/Dropout.py)
+      - [Data_Augumentation](Backpropagation/Overfitting/Data_Augumentation.py)
+      - [Batch_Normalization](Backpropagation/Overfitting/Batch_Normalization.py)
+    - [Vanishing_Gradient]
+      - [Sigmoid](Backpropagation/Vanishing_Gradient/Sigmoid.py)
+      - [ReLU](Backpropagation/Vanishing_Gradient/ReLU.py)
+      - [Weight_lnitialization](Backpropagation/Vanishing_Gradient/Weight_Initialization.py)
+  - [Convolutional Neural Networks (CNN)]
     - [LeNet]
+      - [LR_control](CNN/LeNet/LR_control.py)
+      - [LeNet](CNN/LeNet/LeNet.py)
+      - [Pooling](CNN/LeNet/Pooling.py)
     - [ResNet]
+      - [ResNet](CNN/ResNet/ResNet.py)
     - [VGGNet]
+      - [custom_cnn](CNN/VGGNet/UMNet.py)
+      - [VGG-16](CNN/VGGNet/VGG.py)
+      - [Channel_Attention](CNN/VGGNet/VGGCA.py)
+      - [Dense_connection](CNN/VGGNet/VGGDense.py)
+      - [Skip_connection](CNN/VGGNet/VGGSkip.py)
     - [Final Test]
-  - [Optimization](#-optimization)
-  - [Perceptron](#-perceptron)
-- [Getting Started](#-getting-started)
-- [Contributing](#-contributing)
-- [License](#-license)
+      - [modelOne](CNN/final/ex01.py)
+      - [modelTwo](CNN/final/ex02.py)
+  - [Optimization]
+    - [Adam](Optimization/Adam/Adam.py)
+    - [LearnigRateControl](Optimization/LearnigRateControl/ExponentialLR.py)
+      - [ExponentialLR]
+    - [Momentum](Optimization/Momentum/Momentum.py)
+  - [Perceptron]
+    - [LayerPerceptron]
+      - [MLP](Perceptron/LayerPerceptron/MLP.py)
+      - [SLP](Perceptron/LayerPerceptron/SLP.py)
+- [Getting Started]
+- [Contributing]
+- [License]
 
 ## 🌐 Introduction
 
