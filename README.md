@@ -9,13 +9,15 @@ Welcome to the **Artificial Intelligence Repository**! This is your one-stop des
   - [Backpropagation]
     - [CIFAR10]
       - [CIFA10](Backpropagation/CIFAR10/CIFAR10.py)
-      - [middle test]
+      - [middle test](Backpropagation/CIFAR10/인공지능_중간고사_엄윤상_1705817.py)
     - [Overfitting]
-      - [Overfitting]
-      - [Dropout]
-      - [Data_Augumentation]
-      - [Batch_Normalization]
+      - [Overfitting](Backpropagation/Overfitting/Overfitting.py)
+      - [Dropout](Backpropagation/Overfitting/Dropout.py)
+      - [Data_Augumentation](Backpropagation/Overfitting/Data_Augumentation.py)
+      - [Batch_Normalization](Backpropagation/Overfitting/Batch_Normalization.py)
     - [Vanishing Gradient]
+      - [Sigmoid](Backpropagation/Vanishing Gradient/Sigmoid.py)
+      - 
   - [Convolutional Neural Networks (CNN)]
   - [Optimization]
   - [Perceptron]
