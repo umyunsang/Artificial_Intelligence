@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="modify">
-      <change beforePath="$PROJECT_DIR$/.idea/Artificial_Intelligence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Artificial_Intelligence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/VGGNet/VGG.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/VGGNet/VGG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perceptron/Layer Perceptron/MLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Perceptron/Layer Perceptron/MLP.py" afterDir="false" />
-    </list>
+    <list default="true" id="08b1c214-aacb-46e4-a9eb-e3e3ab5887d6" name="Changes" comment="modify" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722818378336</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="modify">
+      <option name="closed" value="true" />
+      <created>1722927244876</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722927244876</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
