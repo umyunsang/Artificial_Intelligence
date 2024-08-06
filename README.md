@@ -11,10 +11,10 @@ Welcome to the **Artificial Intelligence Repository**! Whether you're a newcomer
     - [Overfitting](#-overfitting)
     - [Vanishing Gradient](#-vanishing-gradient)
   - [Convolutional Neural Networks (CNN)](##-convolutional-neural-networks-cnn)
-    - [LeNet](#-lenet)
-    - [ResNet](#-resnet)
-    - [VGGNet](#-vggnet)
-    - [Final Test](#-final-test)
+    - [LeNet]
+    - [ResNet]
+    - [VGGNet]
+    - [Final Test]
   - [Optimization](#-optimization)
   - [Perceptron](#-perceptron)
 - [Getting Started](#-getting-started)
@@ -69,7 +69,7 @@ Explore the powerful architectures used for image recognition:
 Learn about techniques to optimize and improve the training of AI models:
 
 - [Adam Optimizer](Optimization/Adam/Adam.py)
-- [Learning Rate Control](Optimization/LearnigRateControl/ExponentialLR.py)
+- [Learning Rate Control]
   - [ExponentialLR](Optimization/LearnigRateControl/ExponentialLR.py)
 - [Momentum](Optimization/Momentum/Momentum.py)
 
