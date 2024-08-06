@@ -37,8 +37,8 @@ Welcome to the **Artificial Intelligence Repository**! Whether you're a newcomer
       - [modelTwo](CNN/final/ex02.py)
   - [Optimization]
     - [Adam](Optimization/Adam/Adam.py)
-    - [LearnigRateControl](Optimization/LearnigRateControl/ExponentialLR.py)
-      - [ExponentialLR]
+    - [LearnigRateControl]
+      - [ExponentialLR](Optimization/LearnigRateControl/ExponentialLR.py)
     - [Momentum](Optimization/Momentum/Momentum.py)
   - [Perceptron]
     - [LayerPerceptron]
@@ -96,7 +96,7 @@ Explore the powerful architectures used for image recognition:
 Learn about techniques to optimize and improve the training of AI models:
 
 - [Adam Optimizer](Optimization/Adam/Adam.py)
-- [Learning Rate Control]
+- [Learning Rate Control](Optimization/LearnigRateControl/ExponentialLR.py)
   - [ExponentialLR](Optimization/LearnigRateControl/ExponentialLR.py)
 - [Momentum](Optimization/Momentum/Momentum.py)
 
