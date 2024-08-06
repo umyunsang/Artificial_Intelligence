@@ -5,30 +5,41 @@ import torchvision.transforms as transform
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
+# GPU를 사용할지 여부를 확인합니다.
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 # 2. 데이터셋 준비
 mnist_train = dataset.MNIST(root="./", train=True, transform=transform.ToTensor(), download=True)
 mnist_test = dataset.MNIST(root="./", train=False, transform=transform.ToTensor(), download=True)
 
-# 5. Multi Layer Perceptron (MLP) 모델 정의
+# 5. Multi LayerPerceptron (MLP) 모델 정의
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()
         self.fc1 = nn.Linear(784, 100)
-        self.fc2 = nn.Linear(100, 10)
-        self.sigmoid = nn.Sigmoid()
+        self.fc2 = nn.Linear(100, 100)
+        self.fc3 = nn.Linear(100, 100)
+        self.fc4 = nn.Linear(100, 100)
+        self.fc5 = nn.Linear(100, 10)
+        self.relu = nn.ReLU()
 
     def forward(self, x):
         x = x.view(-1, 28 * 28)
-        y = self.sigmoid(self.fc1(x))
-        y = self.fc2(y)
+        y = self.relu(self.fc1(x))
+        y = self.relu(self.fc2(y))
+        y = self.relu(self.fc3(y))
+        y = self.relu(self.fc4(y))
+        y = self.fc5(y)
         return y
+
+# 모델을 GPU로 이동합니다.
+network = MLP().to(device)
 
 # 6. 하이퍼파라미터 설정
 batch_size = 100
 learning_rate = 0.1
 training_epochs = 15
 loss_function = nn.CrossEntropyLoss()
-network = MLP()
 optimizer = torch.optim.SGD(network.parameters(), lr=learning_rate)
 
 # 7. DataLoader 설정
@@ -40,6 +51,8 @@ for epoch in range(training_epochs):
     total_batch = len(data_loader)
 
     for img, label in data_loader:
+        img, label = img.to(device), label.to(device)
+
         pred = network(img)
         loss = loss_function(pred, label)
         optimizer.zero_grad()
@@ -54,8 +67,8 @@ print('Learning finished')
 
 # 9. 학습된 모델을 이용한 정확도 확인
 with torch.no_grad():
-    img_test = mnist_test.data.float()
-    label_test = mnist_test.targets
+    img_test = mnist_test.data.float().to(device)
+    label_test = mnist_test.targets.to(device)
 
     prediction = network(img_test)
     correct_prediction = torch.argmax(prediction, 1) == label_test
@@ -63,10 +76,8 @@ with torch.no_grad():
     print('Accuracy:', accuracy.item())
 
 # 10. 학습된 모델의 가중치 저장
-torch.save(network.state_dict(), "pth/mlp_mnist.pth")
+torch.save(network.state_dict(), "pth/ReLU.pth")
 
-
-# 결과 값
-# Epoch: 15 Loss = 0.193479
+# Epoch: 15 Loss = 0.019695
 # Learning finished
-# Accuracy: 0.9437999725341797
+# Accuracy: 0.9700000286102295

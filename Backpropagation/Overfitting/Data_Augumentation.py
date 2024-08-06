@@ -31,7 +31,7 @@ mnist_train.data = torch.cat((mnist_train.data, rotation_data_left_15, rotation_
                               rotation_data_right_15, rotation_data_right_30), dim=0)
 mnist_train.targets = mnist_train.targets.repeat(5)
 
-# 5. Multi Layer Perceptron (MLP) 모델 정의
+# 5. Multi LayerPerceptron (MLP) 모델 정의
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()

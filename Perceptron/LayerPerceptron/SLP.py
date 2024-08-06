@@ -24,7 +24,7 @@ print(first_img.shape)  # 이미지의 형태를 출력합니다.
 first_img = first_img.view(-1, 28 * 28)  # 이미지를 1차원으로 평탄화합니다.
 print(first_img.shape)  # 변환된 이미지의 형태를 출력합니다.
 
-# Single Layer Perceptron (SLP) 모델 정의
+# Single LayerPerceptron (SLP) 모델 정의
 class SLP(nn.Module):
     def __init__(self):
         super(SLP, self).__init__()

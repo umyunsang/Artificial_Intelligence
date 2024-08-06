@@ -13,7 +13,7 @@ cifar10_train = dataset.CIFAR10(root="./", train=True, transform=transform.ToTen
 cifar10_test = dataset.CIFAR10(root="./", train=False, transform=transform.ToTensor(), download=True)
 
 
-# 5. Multi Layer Perceptron (MLP) 모델 정의
+# 5. Multi LayerPerceptron (MLP) 모델 정의
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()

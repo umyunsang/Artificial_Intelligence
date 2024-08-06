@@ -13,7 +13,7 @@ mnist_test = dataset.MNIST(root="./", train=False, transform=transform.ToTensor(
 mnist_train.data = mnist_train.data[:300]
 mnist_train.targets = mnist_train.targets[:300]
 
-# 5. Multi Layer Perceptron (MLP) 모델 정의
+# 5. Multi LayerPerceptron (MLP) 모델 정의
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()

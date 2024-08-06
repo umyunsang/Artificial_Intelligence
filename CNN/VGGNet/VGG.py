@@ -125,4 +125,3 @@ with torch.no_grad():  # test에서는 기울기 계산 제외
     correct_prediction = torch.argmax(prediction, 1) == label_test
     accuracy = correct_prediction.float().mean()
     print('Accuracy:', accuracy.item())
-

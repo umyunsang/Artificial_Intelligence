@@ -12,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 mnist_train = dataset.MNIST(root="./", train=True, transform=transform.ToTensor(), download=True)
 mnist_test = dataset.MNIST(root="./", train=False, transform=transform.ToTensor(), download=True)
 
-# 5. Multi Layer Perceptron (MLP) 모델 정의
+# 5. Multi LayerPerceptron (MLP) 모델 정의
 class MLP(nn.Module):
     def __init__(self):
         super(MLP, self).__init__()
@@ -21,14 +21,20 @@ class MLP(nn.Module):
         self.fc3 = nn.Linear(100, 100)
         self.fc4 = nn.Linear(100, 100)
         self.fc5 = nn.Linear(100, 10)
-        self.relu = nn.ReLU()
+        self.sigmoid = nn.Sigmoid()
+
+        torch.nn.init.xavier_normal_(self.fc1.weight.data)
+        torch.nn.init.xavier_normal_(self.fc2.weight.data)
+        torch.nn.init.xavier_normal_(self.fc3.weight.data)
+        torch.nn.init.xavier_normal_(self.fc4.weight.data)
+        torch.nn.init.xavier_normal_(self.fc5.weight.data)
 
     def forward(self, x):
         x = x.view(-1, 28 * 28)
-        y = self.relu(self.fc1(x))
-        y = self.relu(self.fc2(y))
-        y = self.relu(self.fc3(y))
-        y = self.relu(self.fc4(y))
+        y = self.sigmoid(self.fc1(x))
+        y = self.sigmoid(self.fc2(y))
+        y = self.sigmoid(self.fc3(y))
+        y = self.sigmoid(self.fc4(y))
         y = self.fc5(y)
         return y
 
@@ -65,6 +71,7 @@ for epoch in range(training_epochs):
 
 print('Learning finished')
 
+
 # 9. 학습된 모델을 이용한 정확도 확인
 with torch.no_grad():
     img_test = mnist_test.data.float().to(device)
@@ -76,8 +83,8 @@ with torch.no_grad():
     print('Accuracy:', accuracy.item())
 
 # 10. 학습된 모델의 가중치 저장
-torch.save(network.state_dict(), "pth/ReLU.pth")
+torch.save(network.state_dict(), "pth/Weight_Initaliztion.pth")
 
-# Epoch: 15 Loss = 0.019695
+# Epoch: 15 Loss = 0.316210
 # Learning finished
-# Accuracy: 0.9700000286102295
+# Accuracy: 0.8824999928474426

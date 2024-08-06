@@ -16,7 +16,7 @@ mnist_test = dataset.MNIST(root='./',
                            download=True)
 
 
-# Single Layer Perceptron 모델 정의
+# Single LayerPerceptron 모델 정의
 class SLP(nn.Module):
     def __init__(self):
         super(SLP, self).__init__()
