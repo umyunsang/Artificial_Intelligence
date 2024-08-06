@@ -4,21 +4,30 @@ Welcome to the **Artificial Intelligence Repository**! This is your one-stop des
 
 ## 📚 Table of Contents
 
-- [Introduction](#introduction)
-- [Courses](#courses)
-  - [Backpropagation](#backpropagation)
-  - [Convolutional Neural Networks (CNN)](#convolutional-neural-networks-cnn)
-  - [Optimization](#optimization)
-  - [Perceptron](#perceptron)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+- [Introduction]
+- [Repository Structure]
+  - [Backpropagation]
+    - [CIFAR10]
+      - [CIFA10](Backpropagation/CIFAR10/CIFAR10.py)
+      - [middle test]
+    - [Overfitting]
+      - [Overfitting]
+      - [Dropout]
+      - [Data_Augumentation]
+      - [Batch_Normalization]
+    - [Vanishing Gradient]
+  - [Convolutional Neural Networks (CNN)]
+  - [Optimization]
+  - [Perceptron]
+- [Getting Started]
+- [Contributing]
+- [License]
 
 ## 🌐 Introduction
 
 Artificial Intelligence is revolutionizing the world, from automating routine tasks to providing cutting-edge solutions in various fields such as healthcare, finance, and entertainment. Our repository is designed to equip you with the essential tools and knowledge to navigate this exciting domain. Dive into our meticulously curated courses and start your journey towards becoming an AI expert.
 
-## 📂 Courses
+## 📂 Repository Structure
 
 ### 🔄 Backpropagation
 
@@ -65,17 +74,13 @@ Begin your AI journey with the simplest yet powerful neural network—the Percep
 To get started with our courses, clone the repository and navigate to the course folder of your choice. Each course includes detailed instructions, code examples, and exercises to help you learn effectively.
 
 ```bash
-git clone https://github.com/yourusername/Artificial_Intelligence.git
+git clone https://github.com/umyunsang/Artificial_Intelligence.git
 cd Artificial_Intelligence
 ```
 
 ## 🤝 Contributing
 
 We welcome contributions from the community! If you have suggestions, improvements, or new content to add, please open an issue or submit a pull request. Let's build an inclusive and resourceful AI learning platform together.
-
-## 📜 License
-
-This repository is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
